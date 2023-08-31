@@ -80,24 +80,27 @@ Dans Scrum, l'essentiel des exigences est spécifié sous la forme d'une liste o
 
 Dans Scrum, cette liste ordonnée est appelée “backlog produit” ou simplement “backlog”.
 
-Les exigences fonctionnelles sont les items du backlog correspondant à des fonctionnalités pouvant être décrite du point de vue de l'utilisateur. Dans Scrum, les exigences fonctionnelles sont décrites sous forme de *User Stories*. Ce format sera détaillé dans le cadre de la ressource “Analyse”.
+Les exigences fonctionnelles sont les items du backlog correspondant à des fonctionnalités pouvant être décrite du point de vue de l'utilisateur. Dans Scrum, les exigences fonctionnelles sont décrites sous forme de *User Stories*.
 Parmi les exigences non fonctionnelles, les exigences techniques apparaissent elles aussi dans le backlog.
 
 Quand un item du backlog a été réalisé dans le produit (on parle d'item “fini” dans Scrum), l'item est alors sorti du backlog.
+
+
+    EXI001: Les exigences fonctionnelles  et les autres exigences non transverses doivent être gérées à l'aide d'un backlog produit. 
+    
+    EXI002: Le Product Owner est responsable de l'alimentation du backlog et du document des exigences transverses tout au long du projet.
+    
+    EXI003: Les User stories doivent respecter le format “En tant que… Je veux… De telle sorte que…”. 
+    
+    EXI004: Les User stories doivent être détaillées à l'aide de tests d'acceptation. Les tests d'acceptation peuvent être illustrés par des maquettes basse fidélité.
 
 ==== La définition de fini
 
 Certaines exigences dites transverses ou omniprésentes (comme par exemple le fait qu'un site Internet soit compatible avec tel ou tel navigateur, le fait que toutes les pages d'un site doivent s'afficher en moins de 3 ms) ne peuvent pas être stockées dans le backlog, car elles ne sont jamais terminées. En effet, à chaque nouvelle fonctionnalité développée, il faudra vérifier que le produit satisfait à ces exigences omniprésentes.  On les décrit alors dans un document dédié qui porte le nom de “Définition de fini”.
 
-    EXI001: Les exigences fonctionnelles  et les autres exigences non transverses doivent être gérées à l'aide d'un backlog. 
     
-    EXI002: Les exigences transverses doivent être spécifiées dans la “définition de fini”.
+    EXI005: Les exigences transverses doivent être spécifiées dans la “définition de fini”.
     
-    EXI003: Le Product Owner est responsable de l'alimentation du backlog et du document des exigences transverses tout au long du projet.
-    
-    EXI004: Les User stories doivent respecter le format “En tant que… Je veux… De telle sorte que…”. 
-    
-    EXI005: Les User stories doivent être détaillées à l'aide de tests d'acceptation. Les tests d'acceptation peuvent être illustrés par des maquettes basse fidélité.
 
 === Les réunions
 
@@ -173,7 +176,7 @@ Le fichier README.md à la racine du projet sur Github présente une fiche synth
     REA001 : le fichier README à la racine du projet Github doit contenir :
     - le nom du projet ;
     - la description du projet en 10 ligne maximum ;
-    - les membres de l'équipe ainsi que la répartition des rôles.
+    - les membres de l'équipe (nom, prénom, e-mail, login Github) ainsi que la répartition des rôles.
     - Le lien vers le board (Github Project)
     - Le lien vers le dossier Google Drive contenant les documents relatifs au projet. 
 

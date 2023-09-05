@@ -202,6 +202,14 @@ Le fichier README.md à la racine du projet sur Github présente une fiche synth
     - les évènements marquants du sprint.
     - les actions retenues pour améliorer les prochains sprints.
 
+
+ifeval::[{parcours} == d]
+
+include::MatricesRACI-GestionRisques.adoc[]
+
+endif::[]
+
+
 === Le document de réception client signé
 
 L'approche agile permet une validation de la construction du projet à l'issue de chaque sprint. Néanmoins, une  livraison majeure doit faire l'objet d'une réception officielle par le client.

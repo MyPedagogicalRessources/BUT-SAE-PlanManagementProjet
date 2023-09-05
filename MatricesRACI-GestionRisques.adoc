@@ -1,0 +1,11 @@
+=== Les différentes versions de la matrice RACI
+
+    RACI001: La répartition des responsabilités sur les différentes activités du projet doit être décrite sous la forme d'une matrice RACI.
+
+    RACI002: Chaque modification de répartition de responsabilités doit entrainer la livraison d'une nouvelle version de matrice RACI en mentionnant la date de modification et la justification de la modification. 
+
+=== Les différentes versions du document de gestion des risques
+
+    RIS001: L'identification des risques et les stratégies de gestion des risques doivent faire l'objet d'une documentation suivie.
+
+    RIS002: Tout évènement en cours de projet impactant la gestion des risques doit entrainer la livraison d'une nouvelle version du document de gestion des risques. 

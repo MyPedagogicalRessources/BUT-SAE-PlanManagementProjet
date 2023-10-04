@@ -1,4 +1,4 @@
-= SAÉ S3 - Plan de management de projet
+= SAÉ - Plan de management de projet
 Équipe pédagogique BUT Informatique de Rodez
 v2023-09
 :title-page: true

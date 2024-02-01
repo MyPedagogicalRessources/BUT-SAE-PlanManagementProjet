@@ -1,6 +1,6 @@
 = SAÉ - Plan de management de projet
 Équipe pédagogique BUT Informatique de Rodez
-v2023-09
+v2024-02
 :title-page: true
 :toc-title: Table des matières
 :icons: font
@@ -229,7 +229,9 @@ L'approche agile permet une validation de la construction du projet à l'issue d
 
 === Bilans collectifs et individuels
 
-    BIL001: À l'issue de chaque livraison majeure un bilan collectif doit être rédigé par l'équipe..
+    BIL001: À l'issue de chaque livraison majeure un bilan collectif doit être rédigé par l'équipe.
+    Le bilan respectera l'ordre habituellement admis en fin de livraison : description du projet , objectifs du projet/résultats obtenus, bilan technique, ressources planifiées/utilisées, dates (fin prévue/effective), bilan méthodologique, satisfaction du client et de l'utilisateur, synthèse des points à retenir.
     
     BIL002: À l'issue de chaque livraison majeure un bilan individuel doit être rédigé par chaque membre de l'équipe. 
+    Ce bilan doit respecter le plan du bilan collectif. La restitution s'attachera aux résultats et à l'expérience individuelle et, en plus, à l'expérience du travail en équipe. Cette rédaction sera personnelle.
 

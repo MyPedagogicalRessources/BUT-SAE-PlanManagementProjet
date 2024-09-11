@@ -1,6 +1,6 @@
 = SAÉ - Plan de management de projet
-Équipe pédagogique BUT Informatique de Rodez
-v2024-02
+Équipe pédagogique BUT Informatique de Toulouse et Rodez
+v2024-09
 :title-page: true
 :toc-title: Table des matières
 :icons: font
@@ -19,7 +19,7 @@ L'enseignant tuteur est le référent technique du projet. A ce titre, il guide 
 
 === Livrables produit, livrables projet
 
-Dans la suite du document, le terme “produit” désigne la solution conçue par l'équipe pour répondre à la demande du client (le code source du logiciel, le ou les exécutableq, la documentation, etc.)
+Dans la suite du document, le terme “produit” désigne la solution conçue par l'équipe pour répondre à la demande du client (le code source du logiciel, le ou les exécutables, la documentation, etc.)
 Nous distinguons dans la suite du document les livrables produit des livrables projet. Les livrables produit constituent la solution livrée au client. 
 Les livrables projet sont les livrables générés dans le cadre de l'activité de gestion de projet (compte-rendus de réunion, document de recette, etc.).
 Ce document vise à détailler la méthode et les livrables projet attendus dans le contexte du projet de SAÉ. 
@@ -31,7 +31,7 @@ Les livrables produit sont décrits dans le cahier des charges ou, éventuelleme
 De la même manière que nous distinguons les livrables produit des livrables projets, nous distinguons les exigences produits des exigences projets. Les exigences produit sont les exigences que doit satisfaire le produit. Les exigences projet sont les exigences que doit satisfaire le processus de gestion de projet.
 Les exigences produit spécifient le produit, les exigences projet spécifient le processus. Les exigences produit, dans le cadre de ce projet, sont décrites dans le cahier des charges.
 Ce document doit être considéré comme le document de spécification des exigences projet. Ce document est traditionnellement appelé le “plan de management de projet”. 
-Dans la suite du document chaque exigence projet est identifiée par un code. La note de conduite de projet sera établie en prenant en considération le respect, ou non respect, de ces exigences essentielles (voir en annexe une grille d'autoévaluation).
+Dans la suite du document chaque exigence projet est identifiée par un code. La note de conduite de projet sera établie en prenant en considération le respect, ou non respect, de ces exigences essentielles.
 Ce document, dans le cadre de la démarche d'amélioration continue promue dans Scrum, peut être amené à évoluer dans le temps en fonction de vos avancées sur le projet.
 
 == Gestion de projet agile
@@ -59,7 +59,7 @@ définition des exigences produit.
 
     GEN002 : Le sprint 0 ne doit pas excéder 4 semaines
     
-    GEN003 : La durée des sprints (hors sprint 0) devrait être de 3 semaines et ne doit en aucun cas excéder les 4 semaines.
+    GEN003 : Le projet se déroulera en 3 sprints (hors sprint 0) de durée équivalente.
 
 === Les rôles dans l'équipe
 
@@ -90,7 +90,10 @@ Quand un item du backlog a été réalisé dans le produit (on parle d'item “f
     
     EXI002: Le Product Owner est responsable de l'alimentation du backlog et du document des exigences transverses tout au long du projet.
     
-    EXI003: Les User stories doivent respecter le format “En tant que… Je veux… De telle sorte que…”. 
+    EXI003: Les User stories doivent respecter le format 
+    “En tant que... 
+    Je souhaite... Quand...   
+    Afin de...”. 
     
     EXI004: Les User stories doivent être détaillées à l'aide de tests d'acceptation. Les tests d'acceptation peuvent être illustrés par des maquettes basse fidélité.
 
@@ -107,7 +110,7 @@ Certaines exigences dites transverses ou omniprésentes (comme par exemple le fa
 Les sprints sont rythmés par différentes réunions :
 
 - La réunion de planification : elle ouvre le sprint et permet à l'équipe de déterminer quels sont les items du backlog qu'elle pense pouvoir réaliser pendant le sprint. Cette liste d'items retenue pour le sprint en cours compose le “backlog de sprint”.
-Les users stories devront être valorisées afin de savoir ce que l'on va pouvoir mettre dans le sprint ou pas. Pendant le S3, la valorisation se fera en heures. Au S4, la valorisation se fera en points d'efforts.
+Les users stories devront être valorisées afin de savoir ce que l'on va pouvoir mettre dans le sprint ou pas. La valorisation se fera en points d'efforts.
 - Les “daily scrum” : cette réunion rapide, idéalement quotidienne, vise à partager entre tous les membres du projet ce qui a été fait sur le projet depuis le dernier daily scrum, ce qui est prévu jusqu'au prochain daily scrum et si il y a d'éventuels obstacles à l'évolution du produit. La résolution des problèmes ne doit pas être traitée pendant cette réunion, mais elle permet de prévoir un temps pour la résolution avec les membres de l'équipe les plus pertinents pour le ou les problèmes identifiés.
 - La revue de sprint : cette réunion se déroule en fin de sprint pour montrer au client et aux autres parties prenantes intéressées  la version du produit obtenue en fin de sprint. Le client peut alors valider les items de backlog finis ou émettre des réserves sur les items non satisfaisants. Les items validés par le client sortent du backlog. Les autres restent dans le backlog et pourront être sélectionnés de nouveau pour le sprint suivant. L'objectif de la revue de sprint est l'amélioration du produit.
 - La rétrospective de sprint  : cette réunion clôture le sprint et ne concerne que l'équipe de développement ; elle permet à chacun d'exprimer les points forts et les points faibles du processus révélés par le sprint venant de s'écouler. Des actions pour améliorer le processus sont décidées pendant cette réunion. Le plan de management et la définition de fini peuvent être modifiés à la suite d'une rétrospective. L'objectif de la rétrospective de sprint est l'amélioration du processus.
@@ -126,7 +129,8 @@ Quand une équipe “junior” est accompagnée par un “coach” agile, ce qui
 
 La communication entre les membres de l'équipe, entre l'équipe et les autres parties prenantes s'effectue dans le cadre des réunions prévues par le processus mais aussi au travers de rencontres et d'échanges informels en présentiel ou à distance.
 
-    COM001: L'équipe doit mettre en place un outil (tel Slack, Discord, etc.) pour faciliter la communication synchrone ou asynchrone informelle à distance. Dans la suite du document cet outil est désigné "Outil de communication projet". 
+    COM001: L'équipe doit mettre en place une équipe Teams pour faciliter la communication synchrone ou asynchrone informelle à distance. Le nom de l'équipe Teams doit être : "SAE-S3S4-2024-2025-<Quadrigammes_Membres_Equipes>".
+    Exemple : "SAE-S3S4-2024-2025-PFER_CJUL_HLEB_FSIL" où PFER est le quadrigramme de "Paul Ferrand". 
 
     COM002: Toutes les parties prenantes peuvent communiquer via l'outil de communication projet. 
 
@@ -134,32 +138,34 @@ La communication entre les membres de l'équipe, entre l'équipe et les autres p
 
 Les outils sont indispensables à la mise en œuvre d'un processus. Cette section spécifie les outils à mobiliser pour gérer les livrables à produire.
 
-=== Git et Github
+=== Git et Gitlab
 
-    GIT001 : Git et Github doivent être utilisés pour la gestion de version de code source.
+    GIT001 : Git et Gitlab doivent être utilisés pour la gestion de version de code source.
     
     GIT002 : Tous les membres du projet doivent avoir accès au projet comme contributeurs.
     
-    GIT003 : Toutes les parties prenantes du projet doivent avoir accès au projet Github a minima en consultation. 
+    GIT003 : Toutes les parties prenantes du projet doivent avoir accès au projet Gitlab a minima en consultation. 
     
-    GIT004 : Certaines parties prenantes (client, enseignant tuteur) peuvent avoir accès au projet Github en tant que contributeur.
+    GIT004 : Certaines parties prenantes (client, enseignant tuteur) peuvent avoir accès au projet Gitlab en tant que contributeur.
 
     Proj019 : Le workflow Github flow doit être utilisé pour la gestion des contributions des différents membres du projet.
 
-=== Github Project
+=== Gitlab Agile
 
-    GPRO001 : Github Project doit être utilisé pour la gestion du backlog. 
+La ressource https://rise.articulate.com/share/z8nc5bsLlMWxyneNNzyuKgaMXlomJ0cD#/lessons/gBmwvNaQ-MTjFtrVu1sR0CK1OD7RoOO2[Gitlab Agile] décrit comment utiliser Gitlab pour gérer le backlog et le board agile.
 
-Afin de suivre l'évolution du travail pendant un sprint, on utilise un tableau (board agile ou kanban) permettant d'indiquer visuellement le changement d'état des items du backlog. Github Project permet aussi de gérer le board agile. 
+    GPRO001 : Gitlab doit être utilisé pour la gestion du backlog.  
 
-    GPRO002 : Github Project doit être utilisé pour la gestion du board agile.
+Afin de suivre l'évolution du travail pendant un sprint, on utilise un tableau (board agile ou kanban) permettant d'indiquer visuellement le changement d'état des items du backlog. Gitlab permet aussi de gérer le board agile. 
 
-=== Google Drive
+    GPRO002 : Gitlab doit être utilisé pour la gestion du board agile.
 
-    DRI001 : Les documents bureautiques (comptes-rendus, documentation, etc.) des livrables produit ou projet doivent être conçus à l'aide de la suite bureautique Google et stockés sur un Drive attaché à un compte de l'IUT de Rodez appartenant à un des membres de l'équipe.
 
-    DRI002 : Ces documents sont regroupés dans un dossier partagé avec l'ensemble des parties prenantes (enseignant tuteur, client, enseignant suivi de projet). 
-    Nom du dossier  : SAE <N° ou code du projet>  - Intitulé du projet de la SAE - S <N° semestre> .
+
+=== Teams et Office 365
+
+    DOS001 : Les documents bureautiques (comptes-rendus, documentation, etc.) des livrables produit ou projet doivent être conçus à l'aide de la suite bureautique Office 365 et stockés sur l'espace de fichier attaché à l'équipe Teams du projet.
+    
 
 == Livrables projet
 
@@ -171,18 +177,18 @@ Cette section récapitule les livrables devant être produits dans le cadre du p
 
 === La fiche synthèse du projet
 
-Le fichier README.md à la racine du projet sur Github présente une fiche synthétique du projet.
+Le fichier README.md à la racine du projet sur Gitlab présente une fiche synthétique du projet.
 
-    REA001 : le fichier README à la racine du projet Github doit contenir :
+    REA001 : le fichier README à la racine du projet Gitlab doit contenir :
     - le nom du projet ;
     - la description du projet en 10 ligne maximum ;
-    - les membres de l'équipe (nom, prénom, e-mail, login Github) ainsi que la répartition des rôles.
-    - Le lien vers le board (Github Project)
-    - Le lien vers le dossier Google Drive contenant les documents relatifs au projet. 
+    - les membres de l'équipe (nom, prénom, e-mail, login Gitlab) ainsi que la répartition des rôles.
+    - Le lien vers le board (Gitlab)
+    - Le lien vers le dossier Teams contenant les documents relatifs au projet. 
 
 === Le board agile
 
-- Le board agile géré via Github Project. 
+- Le board agile géré via Gitlab. 
 
 === Suivi des temps individuels
 
@@ -219,9 +225,9 @@ L'approche agile permet une validation de la construction du projet à l'issue d
     - la date 
     - la description du projet en 10 lignes maximum ;
     - les membres de l'équipe ainsi que la répartition des rôles.
-    - Le lien vers le projet Github
-    - Le lien vers le board (Github Project)
-    - Le lien vers le dossier Google Drive contenant les documents relatifs au projet. 
+    - Le lien vers le projet Gitlab
+    - Le lien vers le board (Gitlab)
+    - Le lien vers le dossier Teams contenant les documents relatifs au projet. 
     - L'intitulé suivant complété par le client :”Je soussigné …………….. représentant le client du projet……………… atteste réceptionner ce jour ledit projet. ”
     - Un espace de commentaires pour le client
     - Le nom, date et signature du client 

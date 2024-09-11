@@ -231,7 +231,7 @@ L'approche agile permet une validation de la construction du projet à l'issue d
 
 === Bilans collectifs et individuels
 
-    BIL001: À l'issue de chaque livraison majeure un bilan collectif doit être rédigé par l'équipe.
+    BIL001: À l'issue de chaque livraison majeure (typiquement la livraison du dernier Sprint du semestre en cours) un bilan collectif doit être rédigé par l'équipe.
     Le bilan respectera l'ordre habituellement admis en fin de livraison : description du projet , objectifs du projet/résultats obtenus, bilan technique, ressources planifiées/utilisées, dates (fin prévue/effective), bilan méthodologique, satisfaction du client et de l'utilisateur, synthèse des points à retenir.
     
     BIL002: À l'issue de chaque livraison majeure un bilan individuel doit être rédigé par chaque membre de l'équipe. 

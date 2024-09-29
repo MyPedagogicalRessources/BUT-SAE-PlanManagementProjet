@@ -11,15 +11,15 @@ v2024-01
 
 Ce document décrit l'ensemble des *exigences relatives à la gestion de projet*  devant être satisfaites par les équipes étudiantes. Les livrables devant être produits dans le contexte du projet sont explicités.
 
-Dans la suite du document, le terme “*enseignant tuteur*” désigne l'enseignant qui a donné le projet, ou dans le cas d'un projet externe, l'enseignant qui encadre le projet d'un point de vue technique. Le terme “*enseignant gestion projet*” ou “*coach agile*” désigne l'enseignant qui supervise la mise en œuvre du plan de management de projet.
+Dans la suite du document, le terme "*enseignant tuteur*" désigne l'enseignant qui a donné le projet, ou dans le cas d'un projet externe, l'enseignant qui encadre le projet d'un point de vue technique. Le terme "*enseignant gestion projet*" ou "*coach agile*" désigne l'enseignant qui supervise la mise en œuvre du plan de management de projet.
 
 === Rôle de l'enseignant tuteur 
 
-L'enseignant tuteur est le référent technique du projet. A ce titre, il guide les étudiants dans leurs choix techniques, répond à leurs questions ou les oriente vers des ressources pertinentes. Dans le cas d'un projet interne, il joue aussi le rôle du client. En tant que client, il participe à la réunion Scrum nommée  “revue de sprint”. Toutefois, des  réunions supplémentaires avec l'enseignant tuteur viennent s'ajouter à celle-ci, à la demande des étudiants et/ou de l'enseignant.
+L'enseignant tuteur est le référent technique du projet. A ce titre, il guide les étudiants dans leurs choix techniques, répond à leurs questions ou les oriente vers des ressources pertinentes. Dans le cas d'un projet interne, il joue aussi le rôle du client. En tant que client, il participe à la réunion Scrum nommée  "revue de sprint". Toutefois, des  réunions supplémentaires avec l'enseignant tuteur viennent s'ajouter à celle-ci, à la demande des étudiants et/ou de l'enseignant.
 
 === Livrables produit, livrables projet
 
-Dans la suite du document, le terme “produit” désigne la solution conçue par l'équipe pour répondre à la demande du client (le code source du logiciel, le ou les exécutableq, la documentation, etc.)
+Dans la suite du document, le terme "produit" désigne la solution conçue par l'équipe pour répondre à la demande du client (le code source du logiciel, le ou les exécutableq, la documentation, etc.)
 Nous distinguons dans la suite du document les livrables produit des livrables projet. Les livrables produit constituent la solution livrée au client. 
 Les livrables projet sont les livrables générés dans le cadre de l'activité de gestion de projet (compte-rendus de réunion, document de recette, etc.).
 Ce document vise à détailler la méthode et les livrables projet attendus dans le contexte du projet de SAÉ. 
@@ -30,7 +30,7 @@ Les livrables produit sont décrits dans le cahier des charges ou, éventuelleme
 
 De la même manière que nous distinguons les livrables produit des livrables projets, nous distinguons les exigences produits des exigences projets. Les exigences produit sont les exigences que doit satisfaire le produit. Les exigences projet sont les exigences que doit satisfaire le processus de gestion de projet.
 Les exigences produit spécifient le produit, les exigences projet spécifient le processus. Les exigences produit, dans le cadre de ce projet, sont décrites dans le cahier des charges.
-Ce document doit être considéré comme le document de spécification des exigences projet. Ce document est traditionnellement appelé le “plan de management de projet”. 
+Ce document doit être considéré comme le document de spécification des exigences projet. Ce document est traditionnellement appelé le "plan de management de projet". 
 Dans la suite du document chaque exigence projet est identifiée par un code. La note de conduite de projet sera établie en prenant en considération le respect, ou non respect, de ces exigences essentielles.
 Ce document, dans le cadre de la démarche d'amélioration continue promue dans Scrum, peut être amené à évoluer dans le temps en fonction de vos avancées sur le projet.
 
@@ -47,7 +47,7 @@ Une itération ou sprint est une période durant laquelle l'équipe travaille à
 
 À la fin de chaque sprint, une version du produit est montrable au client et aux autres parties prenantes afin d'obtenir des retours sur les fonctionnalités qui ont été implantées pendant le sprint. Ces retours permettent d'améliorer le produit.
 Dans Scrum, la durée des sprints est fixe. Elle est en général comprise entre 2 et 4 semaines.
-Une exception est faite pour la première période de mise en place du projet : cette période peut être plus longue et est baptisée “sprint 0”.
+Une exception est faite pour la première période de mise en place du projet : cette période peut être plus longue et est baptisée "sprint 0".
 
 ==== Activités
 
@@ -65,9 +65,9 @@ définition des exigences produit.
 
     ROL001 : Tous les membres de l'équipe doivent participer de manière équilibrée au développement du produit.
     
-    ROL002:  L'équipe doit désigner un membre responsable des exigences produits ; ce membre entretient un rapport privilégié avec le client et à ce titre, représente le client au sein de l'équipe ; dans Scrum, ce membre est appelé “Product Owner”.
+    ROL002:  L'équipe doit désigner un membre responsable des exigences produits ; ce membre entretient un rapport privilégié avec le client et à ce titre, représente le client au sein de l'équipe ; dans Scrum, ce membre est appelé "Product Owner".
     
-    ROL003: L'équipe doit désigner un membre responsable de la bonne mise en œuvre du processus. Dans Scrum, ce membre est appelé “Scrum Master”. Certains experts en méthode agile désignent ce membre “Process Owner”. 
+    ROL003: L'équipe doit désigner un membre responsable de la bonne mise en œuvre du processus. Dans Scrum, ce membre est appelé "Scrum Master". Certains experts en méthode agile désignent ce membre "Process Owner". 
     
     ROL004: Les rôles de Product Owner et de Scrum Master doivent changer au cours du projet.
 
@@ -78,41 +78,41 @@ Les exigences produits sont composées d'exigences fonctionnelles et d'exigences
 ==== Le backlog produit
 Dans Scrum, l'essentiel des exigences est spécifié sous la forme d'une liste ordonnée par la priorité donnée par le client.
 
-Dans Scrum, cette liste ordonnée est appelée “backlog produit” ou simplement “backlog”.
+Dans Scrum, cette liste ordonnée est appelée "backlog produit" ou simplement "backlog".
 
 Les exigences fonctionnelles sont les items du backlog correspondant à des fonctionnalités pouvant être décrite du point de vue de l'utilisateur. Dans Scrum, les exigences fonctionnelles sont décrites sous forme de *User Stories*.
 Parmi les exigences non fonctionnelles, les exigences techniques apparaissent elles aussi dans le backlog.
 
-Quand un item du backlog a été réalisé dans le produit (on parle d'item “fini” dans Scrum), l'item est alors sorti du backlog.
+Quand un item du backlog a été réalisé dans le produit (on parle d'item "fini" dans Scrum), l'item est alors sorti du backlog.
 
 
     EXI001: Les exigences fonctionnelles  et les autres exigences non transverses doivent être gérées à l'aide d'un backlog produit. 
     
     EXI002: Le Product Owner est responsable de l'alimentation du backlog et du document des exigences transverses tout au long du projet.
     
-    EXI003: Les User stories doivent respecter le format “En tant que… Je veux… De telle sorte que…”. 
+    EXI003: Les User stories doivent respecter le format "En tant que… Je veux… De telle sorte que…". 
     
     EXI004: Les User stories doivent être détaillées à l'aide de tests d'acceptation. Les tests d'acceptation peuvent être illustrés par des maquettes basse fidélité.
 
 ==== La définition de fini
 
-Certaines exigences dites transverses ou omniprésentes (comme par exemple le fait qu'un site Internet soit compatible avec tel ou tel navigateur, le fait que toutes les pages d'un site doivent s'afficher en moins de 3 ms) ne peuvent pas être stockées dans le backlog, car elles ne sont jamais terminées. En effet, à chaque nouvelle fonctionnalité développée, il faudra vérifier que le produit satisfait à ces exigences omniprésentes.  On les décrit alors dans un document dédié qui porte le nom de “Définition de fini”.
+Certaines exigences dites transverses ou omniprésentes (comme par exemple le fait qu'un site Internet soit compatible avec tel ou tel navigateur, le fait que toutes les pages d'un site doivent s'afficher en moins de 3 ms) ne peuvent pas être stockées dans le backlog, car elles ne sont jamais terminées. En effet, à chaque nouvelle fonctionnalité développée, il faudra vérifier que le produit satisfait à ces exigences omniprésentes.  On les décrit alors dans un document dédié qui porte le nom de "Définition de fini".
 
     
-    EXI005: Les exigences transverses doivent être spécifiées dans la “définition de fini”.
+    EXI005: Les exigences transverses doivent être spécifiées dans la "définition de fini".
     
 
 === Les réunions
 
 Les sprints sont rythmés par différentes réunions :
 
-- La réunion de planification : elle ouvre le sprint et permet à l'équipe de déterminer quels sont les items du backlog qu'elle pense pouvoir réaliser pendant le sprint. Cette liste d'items retenue pour le sprint en cours compose le “backlog de sprint”.
+- La réunion de planification : elle ouvre le sprint et permet à l'équipe de déterminer quels sont les items du backlog qu'elle pense pouvoir réaliser pendant le sprint. Cette liste d'items retenue pour le sprint en cours compose le "backlog de sprint".
 Les users stories devront être valorisées afin de savoir ce que l'on va pouvoir mettre dans le sprint ou pas. Pendant le S3, la valorisation se fera en heures. Au S4, la valorisation se fera en points d'efforts.
-- Les “daily scrum” : cette réunion rapide, idéalement quotidienne, vise à partager entre tous les membres du projet ce qui a été fait sur le projet depuis le dernier daily scrum, ce qui est prévu jusqu'au prochain daily scrum et si il y a d'éventuels obstacles à l'évolution du produit. La résolution des problèmes ne doit pas être traitée pendant cette réunion, mais elle permet de prévoir un temps pour la résolution avec les membres de l'équipe les plus pertinents pour le ou les problèmes identifiés.
+- Les "daily scrum" : cette réunion rapide, idéalement quotidienne, vise à partager entre tous les membres du projet ce qui a été fait sur le projet depuis le dernier daily scrum, ce qui est prévu jusqu'au prochain daily scrum et si il y a d'éventuels obstacles à l'évolution du produit. La résolution des problèmes ne doit pas être traitée pendant cette réunion, mais elle permet de prévoir un temps pour la résolution avec les membres de l'équipe les plus pertinents pour le ou les problèmes identifiés.
 - La revue de sprint : cette réunion se déroule en fin de sprint pour montrer au client et aux autres parties prenantes intéressées  la version du produit obtenue en fin de sprint. Le client peut alors valider les items de backlog finis ou émettre des réserves sur les items non satisfaisants. Les items validés par le client sortent du backlog. Les autres restent dans le backlog et pourront être sélectionnés de nouveau pour le sprint suivant. L'objectif de la revue de sprint est l'amélioration du produit.
 - La rétrospective de sprint  : cette réunion clôture le sprint et ne concerne que l'équipe de développement ; elle permet à chacun d'exprimer les points forts et les points faibles du processus révélés par le sprint venant de s'écouler. Des actions pour améliorer le processus sont décidées pendant cette réunion. Le plan de management et la définition de fini peuvent être modifiés à la suite d'une rétrospective. L'objectif de la rétrospective de sprint est l'amélioration du processus.
 
-Quand une équipe “junior” est accompagnée par un “coach” agile, ce qui est le cas dans les projets de SAÉ, la réunion d'accompagnement par le coach s'ajoute aux réunions précédentes.
+Quand une équipe "junior" est accompagnée par un "coach" agile, ce qui est le cas dans les projets de SAÉ, la réunion d'accompagnement par le coach s'ajoute aux réunions précédentes.
 
     REU001 : Les réunions de sprint doivent être mises en œuvre durant toute la durée du projet.
     
@@ -192,7 +192,7 @@ Le fichier README.md à la racine du projet sur Github présente une fiche synth
 
 === Les comptes-rendus de réunions
 
-    CR001: Chaque réunion fait l'objet d'un compte-rendu à fournir (nommer les documents avec leur type + date). Chaque type de réunion aura un "template" différent puisque les contenus sont déférents.
+    CR001: Chaque réunion fait l'objet d'un compte-rendu à fournir (nommer les documents avec leur type + date). Chaque type de réunion aura un "template" différent puisque les contenus sont différents.
 
     CR002: Les comptes-rendus des revues de sprint doivent obligatoirement mentionner les items de backlog validés par le client.
 
@@ -222,7 +222,7 @@ L'approche agile permet une validation de la construction du projet à l'issue d
     - Le lien vers le projet Github
     - Le lien vers le board (Github Project)
     - Le lien vers le dossier Google Drive contenant les documents relatifs au projet. 
-    - L'intitulé suivant complété par le client :”Je soussigné …………….. représentant le client du projet……………… atteste réceptionner ce jour ledit projet. ”
+    - L'intitulé suivant complété par le client :"Je soussigné …………….. représentant le client du projet……………… atteste réceptionner ce jour ledit projet. "
     - Un espace de commentaires pour le client
     - Le nom, date et signature du client 
 
